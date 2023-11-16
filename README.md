@@ -48,9 +48,7 @@ mccms là một hệ thống mã nguồn mở cho truyện tranh và tiểu thuy
  **Các nhóm trao đổi lớn của Mccms:** 
 
 Nhóm trao đổi QQ①: [1054580990](https://jq.qq.com/?_wv=1027&k=ZKjEtsO5)<br>
-Nhóm trao đổi QQ②: [653101097](https://jq.qq.com/?_wv
-
-=1027&k=krhigFAO)<br>
+Nhóm trao đổi QQ②: [653101097](https://jq.qq.com/?_wv=1027&k=krhigFAO)<br>
 Nhóm Telegram: [https://t.me/+caw5rz1Kbm1jOGJl](https://t.me/+caw5rz1Kbm1jOGJl)<br>
 <br>
 *Chú ý: Đây chỉ là bản dịch và có thể có những thay đổi về ngữ cảnh trong quá trình dịch.*
