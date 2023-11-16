@@ -1,0 +1,176 @@
+                               Giấy Phép Apache
+                           Phiên bản 2.0, tháng 1 năm 2004
+                        http://www.apache.org/licenses/
+
+   ĐIỀU KHOẢN VÀ ĐIỀU KIỆN CHO VIỆC SỬ DỤNG, SAO CHÉP VÀ PHÂN PHỐI
+
+   1. Định nghĩa.
+
+      "Giấy phép" sẽ có nghĩa là các điều khoản và điều kiện cho việc sử dụng, sao chép,
+      và phân phối như được định nghĩa trong Các Mục 1 đến 9 của tài liệu này.
+
+      "Người cấp phép" sẽ có nghĩa là chủ sở hữu bản quyền hoặc thực thể được ủy quyền bởi
+      chủ sở hữu bản quyền đang cấp Giấy phép.
+
+      "Thực thể Pháp lý" sẽ có nghĩa là sự kết hợp của thực thể hành động và tất cả
+      các thực thể khác mà kiểm soát, được kiểm soát bởi, hoặc dưới sự kiểm soát chung với thực thể đó. Đối với mục đích của định nghĩa này,
+      "kiểm soát" có nghĩa là (i) quyền lực, trực tiếp hoặc gián tiếp, để gây ra
+      sự hướng dẫn hoặc quản lý của thực thể đó, dù thông qua hợp đồng hoặc
+      cách khác, hoặc (ii) sở hữu hơn năm mươi phần trăm (50%) hoặc nhiều hơn của
+      cổ phần đang lưu hành, hoặc (iii) quyền sở hữu có lợi của thực thể đó.
+
+      "Bạn" (hoặc "Của bạn") sẽ có nghĩa là một cá nhân hoặc Thực thể Pháp lý
+      thực hiện các quyền được cấp bởi Giấy phép này.
+
+      "Dạng Nguồn" sẽ có nghĩa là dạng ưa thích để thực hiện sửa đổi,
+      bao gồm nhưng không giới hạn ở mã nguồn phần mềm, tài liệu nguồn,
+      và các tệp cấu hình.
+
+      "Dạng Đối tượng" sẽ có nghĩa là bất kỳ dạng nào kết quả từ sự biến đổi
+      cơ học hoặc dịch thuật của Dạng Nguồn, bao gồm nhưng không giới hạn ở
+      mã đối tượng đã biên dịch, tài liệu đã tạo ra,
+      và chuyển đổi sang các loại phương tiện khác.
+
+      "Công trình" sẽ có nghĩa là công trình sáng tạo, dù ở Dạng Nguồn hoặc
+      Dạng Đối tượng, được cung cấp dưới Giấy phép, như được chỉ ra bởi một
+      thông báo bản quyền được bao gồm trong hoặc đính kèm với công trình
+      (một ví dụ được cung cấp trong Phụ lục dưới đây).
+
+      "Công trình Phái sinh" sẽ có nghĩa là bất kỳ công trình nào, dù ở Dạng Nguồn hoặc Đối tượng
+      dựa trên (hoặc được
+
+ rút ra từ) Công trình và với những sửa đổi biên tập,
+      chú thích, làm rõ, hoặc các thay đổi khác đại diện, như một toàn thể, một công trình sáng tạo gốc. Đối với mục đích
+      của Giấy phép này, Công trình Phái sinh sẽ không bao gồm các công trình mà vẫn
+      có thể tách rời từ, hoặc chỉ liên kết (hoặc ràng buộc theo tên) với các giao diện của,
+      Công trình và Công trình Phái sinh của nó.
+
+      "Đóng góp" sẽ có nghĩa là bất kỳ công trình sáng tạo nào, bao gồm
+      phiên bản gốc của Công trình và bất kỳ sửa đổi hoặc bổ sung
+      nào cho Công trình đó hoặc Công trình Phái sinh của nó, được cố ý
+      gửi đến Người cấp phép để đưa vào Công trình bởi chủ sở hữu bản quyền
+      hoặc bởi một cá nhân hoặc Thực thể Pháp lý được ủy quyền để gửi thay mặt
+      cho chủ sở hữu bản quyền. Đối với mục đích của định nghĩa này, "gửi"
+      có nghĩa là bất kỳ hình thức nào của giao tiếp điện tử, lời nói, hoặc viết
+      gửi đến Người cấp phép hoặc đại diện của họ, bao gồm nhưng không giới hạn ở
+      giao tiếp trên các danh sách thư điện tử, hệ thống kiểm soát mã nguồn,
+      và hệ thống theo dõi vấn đề được quản lý bởi, hoặc thay mặt cho, Người cấp phép với mục đích thảo luận và cải thiện Công trình, nhưng
+      không bao gồm giao tiếp được đánh dấu rõ ràng hoặc được chỉ định khác
+      bằng văn bản bởi chủ sở hữu bản quyền là "Không phải là Đóng góp."
+
+      "Người đóng góp" sẽ có nghĩa là Người cấp phép và bất kỳ cá nhân hoặc Thực thể Pháp lý nào
+      mà Đóng góp đã được nhận bởi Người cấp phép và sau đó được kết hợp vào Công trình.
+
+   2. Cấp Giấy phép Bản quyền. Tuân theo các điều khoản và điều kiện của
+      Giấy phép này, mỗi Người đóng góp đây cấp cho Bạn một giấy phép bản quyền vĩnh viễn,
+      toàn cầu, không độc quyền, không tính phí, không thu tiền bản quyền, không thể thu hồi
+      để sao chép, chuẩn bị Công trình Phái sinh của,
+      công bố công khai, trình diễn công cộng, cấp phép phụ, và phân phối Công trình
+      và những Công trình Phái sinh đó dưới Dạng Nguồn hoặc Đối tượng.
+   3. Cấp Giấy Phép Sáng Chế. Tuân theo các điều khoản và điều kiện của
+   Giấy phép này, mỗi Người đóng góp tại đây cấp cho Bạn một giấy phép sáng chế vĩnh viễn,
+   toàn cầu, không độc quyền, không tính phí, miễn phí bản quyền, không thể thu hồi
+   (trừ như đã nêu trong mục này) để tạo, cho tạo, sử dụng, cung cấp bán, bán, nhập khẩu, và chuyển nhượng Công trình,
+   nơi mà giấy phép này chỉ áp dụng cho những yêu cầu sáng chế có thể cấp phép
+   bởi Người đóng góp đó mà bị vi phạm cần thiết bởi Đóng góp của họ
+   một mình hoặc bằng sự kết hợp Đóng góp của họ
+   với Công trình mà Đóng góp đó đã được gửi. Nếu Bạn
+   khởi xướng kiện tụng sáng chế chống lại bất kỳ thực thể nào (bao gồm cả
+   một đơn kiện chéo hoặc phản đơn trong một vụ kiện) cáo buộc rằng Công trình
+   hoặc Đóng góp được kết hợp trong Công trình cấu thành vi phạm sáng chế trực tiếp
+   hoặc góp phần, thì bất kỳ giấy phép sáng chế nào
+   được cấp cho Bạn theo Giấy phép này cho Công trình đó sẽ chấm dứt
+   kể từ ngày vụ kiện tụng đó được nộp.
+
+4. Phân phối lại. Bạn có thể sao chép và phân phối bản sao của
+   Công trình hoặc Công trình Phái sinh của nó trên bất kỳ phương tiện nào, có hoặc không
+   có sửa đổi, và dưới Dạng Nguồn hoặc Đối tượng, miễn là Bạn
+   đáp ứng các điều kiện sau:
+
+   (a) Bạn phải cung cấp cho bất kỳ người nhận khác của Công trình hoặc
+       Công trình Phái sinh một bản sao của Giấy phép này; và
+
+   (b) Bạn phải khiến bất kỳ tệp nào đã sửa đổi phải mang thông báo nổi bật
+       nêu rõ rằng Bạn đã thay đổi các tệp; và
+
+   (c) Bạn phải giữ lại, trong Dạng Nguồn của bất kỳ Công trình Phái sinh nào
+       mà Bạn phân phối, tất cả thông báo bản quyền, sáng chế, thương hiệu, và
+       ghi nhận từ Dạng Nguồn của Công trình,
+       loại trừ những thông báo không liên quan đến bất kỳ phần nào của
+       Công trình Phái sinh; và
+
+   (d) Nếu Công trình bao gồm một tệp văn bản "NOTICE" như một phần của
+       việc phân phối, thì bất kỳ Công trình Phái sinh nào mà Bạn phân phối phải
+       bao gồm một bản sao dễ đọc của các thông báo ghi nhận được
+
+ chứa
+       trong tệp NOTICE đó, loại trừ những thông báo không liên quan đến bất kỳ phần nào của Công trình Phái sinh, ít nhất một
+       trong các nơi sau đây: trong một tệp văn bản NOTICE được phân phối
+       như một phần của Công trình Phái sinh; trong Dạng Nguồn hoặc
+       tài liệu, nếu được cung cấp cùng với Công trình Phái sinh; hoặc,
+       trong một hiển thị được tạo ra bởi Công trình Phái sinh, nếu và
+       ở bất cứ đâu thông báo của bên thứ ba thường xuất hiện. Nội dung
+       của tệp NOTICE chỉ mang tính chất thông tin và
+       không thay đổi Giấy phép. Bạn có thể thêm thông báo ghi nhận của riêng bạn
+       trong Công trình Phái sinh mà Bạn phân phối, cùng với
+       hoặc như một phụ lục cho văn bản NOTICE từ Công trình, miễn là
+       những thông báo ghi nhận bổ sung đó không thể được hiểu là
+       sửa đổi Giấy phép.
+
+   Bạn có thể thêm tuyên bố bản quyền của riêng mình vào các sửa đổi của bạn và
+   có thể cung cấp các điều khoản và điều kiện giấy phép bổ sung hoặc khác
+   cho việc sử dụng, sao chép, hoặc phân phối các sửa đổi của bạn, hoặc
+   cho bất kỳ Công trình Phái sinh nào như một toàn thể, miễn là việc sử dụng,
+   sao chép, và phân phối Công trình của bạn vẫn tuân thủ
+   các điều kiện được nêu trong Giấy phép này.
+
+8. Giới hạn Trách nhiệm. Trong bất kỳ trường hợp nào và theo bất kỳ lý thuyết pháp lý nào,
+   dù trong bồi thường (bao gồm sự cẩu thả), hợp đồng, hay cách khác,
+   trừ khi được yêu cầu bởi luật áp dụng (như hành động cố ý và cẩu thả nghiêm trọng)
+   hoặc đã thỏa thuận bằng văn bản, không có Người đóng góp nào
+   phải chịu trách nhiệm đối với Bạn về bất kỳ thiệt hại nào, bao gồm bất kỳ thiệt hại trực tiếp, gián tiếp, đặc biệt,
+   ngẫu nhiên, hoặc hậu quả của bất kỳ tính chất nào phát sinh do
+   Giấy phép này hoặc do việc sử dụng hoặc không thể sử dụng Công trình
+   (bao gồm nhưng không giới hạn ở thiệt hại do mất thiện chí,
+   ngừng công việc, hỏng máy tính hoặc trục trặc, hoặc bất kỳ và tất cả
+   các thiệt hại thương mại hoặc mất mát khác), ngay cả khi Người đóng góp đó
+   đã được thông báo về khả năng của những thiệt hại đó.
+
+9. Chấp nhận Bảo hành hoặc Trách nhiệm Bổ sung. Khi phân phối lại
+   Công trình hoặc Công trình Phái sinh của nó, Bạn có thể chọn cung cấp,
+   và thu phí cho, việc chấp nhận hỗ trợ, bảo hành, bồi thường,
+   hoặc các nghĩa vụ và/hoặc quyền trách nhiệm khác phù hợp với
+   Giấy phép này. Tuy nhiên, trong việc chấp nhận các nghĩa vụ đó, Bạn chỉ có thể hành động
+   thay mặt cho chính mình và trên trách nhiệm duy nhất của mình, không phải thay mặt
+   cho bất kỳ Người đóng góp nào khác, và chỉ khi Bạn đồng ý bồi thường,
+   bảo vệ, và giữ mỗi Người đóng góp không bị tổn thất vì bất kỳ trách nhiệm
+   nào phát sinh do, hoặc yêu cầu đưa ra chống lại, Người đóng góp đó do
+   việc bạn chấp nhận bảo hành hoặc trách nhiệm bổ sung nào đó.
+
+   HẾT CÁC ĐIỀU KHOẢN VÀ ĐIỀU KIỆN
+
+   PHỤ LỤC: Cách áp dụng Giấy phép Apache cho công việc của bạn.
+
+   Để áp dụng Giấy phép Apache cho công việc của bạn, đính kèm thông báo mẫu sau,
+   với các trường được bao bởi dấu ngoặc "[]" 
+   được thay thế bằng thông tin nhận dạng của bạn. (Không bao gồm
+   các dấu ngoặc!) Văn bản nên được bao trong cú pháp bình luận thích hợp
+   cho định dạng tệp. Ch
+
+úng tôi cũng khuyến nghị rằng tên tệp hoặc lớp
+   và mô tả mục đích nên được bao gồm trên cùng "trang in"
+   như thông báo bản quyền để dễ dàng nhận dạng hơn trong các lưu trữ của bên thứ ba.
+
+   Bản quyền [năm] [tên của chủ sở hữu bản quyền]
+
+   Được cấp phép theo Giấy phép Apache, Phiên bản 2.0 (the "License");
+   bạn không được sử dụng tệp này trừ khi tuân thủ Giấy phép.
+   Bạn có thể nhận được một bản sao của Giấy phép tại
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Trừ khi được yêu cầu bởi luật áp dụng hoặc đã thỏa thuận bằng văn bản, phần mềm
+   được phân phối theo Giấy phép được phân phối trên cơ sở "NHƯ LÀ",
+   KHÔNG CÓ BẢO HÀNH HOẶC ĐIỀU KIỆN NÀO, dù rõ ràng hoặc ngụ ý.
+   Xem Giấy phép cho ngôn ngữ cụ thể điều chỉnh quyền và
+   giới hạn theo Giấy phép.
