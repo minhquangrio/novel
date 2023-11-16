@@ -1,0 +1,50 @@
+﻿Giao diện nhập kho từ bên ngoài thường được cung cấp cho phần mềm bên thứ ba (như: Firecat, ET, v.v.).
+
+Trước khi sử dụng, hãy thiết lập mật khẩu nhập kho từ bên ngoài trong hệ thống quản trị - cấu hình an ninh - cài đặt mật khẩu nhập kho từ bên ngoài (mật khẩu mặc định: 123456, bắt buộc thay đổi).
+
+Nhập kho tiểu thuyết:
+
+Địa chỉ giao diện nhập kho
+http://tên miền/index.php/api/receive/book
+
+Tên trường nhập kho
+pass      Mật khẩu nhập kho
+cid          ID danh mục, ví dụ: 1, hoặc tên danh mục, ví dụ: Quốc man (sẽ tự động thêm mới nếu không tồn tại)
+tid          Liệu có nên đề xuất, 0 không, 1 có
+uid          ID người dùng tác giả trước mặt, cũng là ID thành viên
+score       Điểm đánh giá tổng cộng, ví dụ: 9.8
+name      Tiêu đề tiểu thuyết
+notice     Thông báo tác giả
+tags        Nhãn Tags, ví dụ: Huyền bí, Đô thị, Nhiệt huyết
+text         Mô tả nhanh chóng trong một câu
+pic          Hình thu nhỏ dọc của tiểu thuyết
+picx         Hình thu nhỏ ngang của tiểu thuyết
+serialize    Trạng thái tiểu thuyết, hoàn thành hoặc đang tiếp tục
+author       Tác giả tiểu thuyết
+text_num   Tổng số từ
+content      Giới thiệu tiểu thuyết
+hits         Tổng lượt xem của tiểu thuyết
+yhits        Lượt xem hàng tháng của tiểu thuyết
+zhits        Lượt xem hàng tuần của tiểu thuyết
+rhits        Lượt xem hàng ngày của tiểu thuyết
+yid          Trạng thái nhập kho tiểu thuyết, 0 đã kiểm duyệt, 1 đang chờ kiểm duyệt (để trống là đã kiểm duyệt)
+
+Chỉ các trường: cid và name là bắt buộc, các trường khác có thể để trống
+
+Nhập kho chương tiểu thuyết:
+
+Địa chỉ giao diện nhập kho
+http://tên miền/index.php/api/receive/book_chapter
+
+Tên trường nhập kho
+pass      Mật khẩu nhập kho
+name        Tên chương
+bid	    ID tiểu thuyết (thuộc tiểu thuyết nào, có thể xem ID của tiểu thuyết trong hệ thống quản trị, chọn một trong hai tiêu đề và ID tiểu thuyết, bắt buộc nhập một trong hai, ưu tiên ID)
+bname	Tiêu đề tiểu thuyết (thuộc tiểu thuyết nào, chọn một trong hai tiêu đề và ID tiểu thuyết, bắt buộc nhập một trong hai, ưu tiên ID)
+bauthor	Tác giả tiểu thuyết (tác giả tiểu thuyết, nếu không truyền thì không kiểm tra)
+vip           Quyền đọc VIP, 0 miễn phí, 1 cần VIP
+cion          Số tiền ảo để đọc, ví dụ: 5
+text          Nội dung văn bản của chương
+text_num  Số từ của chương
+yid           Trạng thái nhập kho, 0 đã kiểm duyệt, 1 đang chờ kiểm duyệt
+xid           ID sắp xếp chương, giá trị càng nhỏ càng đầu tiên (trong tiểu thuyết hiện tại, giá trị ID sắp xếp chương không thể trùng nhau)
