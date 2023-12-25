@@ -1,16 +1,15 @@
 <?php
 /*
-'Tên phần mềm: Mccms（Mccms）
-'Website chính thức: http://www.mccms.cn/
-'Tác giả phần mềm: Công ty Công nghệ Mạng Chóng Shèng Guilin（By: Yānyǔ Jiāngnán）
+'软件名称：漫城CMS（Mccms）
+'官方网站：http://www.mccms.cn/
+'软件作者：桂林崇胜网络科技有限公司（By:烟雨江南）
 '--------------------------------------------------------
-'Được cấp phép ( http://www.apache.org/licenses/LICENSE-2.0 )
-'Phát hành theo giấy phép mã nguồn mở Apache2 và cung cấp sử dụng miễn phí.
+'Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
+'遵循Apache2开源协议发布，并提供免费使用。
 '--------------------------------------------------------
 */
-// Múi giờ mặc định
+//默认时区
 date_default_timezone_set("Asia/Shanghai");
-// [Rest of the code remains unchanged]
 define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'production');
 switch (ENVIRONMENT){
 	case 'development':
@@ -27,11 +26,10 @@ switch (ENVIRONMENT){
 		}
 	break;
 	default:
-		header('HTTP/1.1 503 Dịch vụ Không Có Sẵn.', TRUE, 503);
-		echo 'Môi trường ứng dụng không được thiết lập đúng cách.';
+		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+		echo 'The application environment is not set correctly.';
 		exit(1);
 }
-
 $application_folder = 'sys/apps';
 $system_path = 'sys/system';
 $view_folder = 'template';
@@ -42,11 +40,10 @@ if(($_temp = realpath($system_path)) !== FALSE){
 	$system_path = rtrim($system_path, '/').'/';
 }
 if(!is_dir($system_path)){
-	header('HTTP/1.1 503 Dịch vụ Không Có Sẵn.', TRUE, 503);
-	echo 'Đường dẫn thư mục hệ thống của bạn dường như không được thiết lập đúng cách. Vui lòng mở tệp sau và sửa chữa điều này: '.pathinfo(__FILE__, PATHINFO_BASENAME);
+	header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+	echo 'Your system folder path does not appear to be set correctly. Please open the following file and correct this: '.pathinfo(__FILE__, PATHINFO_BASENAME);
 	exit(3);
 }
-///
 if(!defined('SELF')) {
 	define('SELF', pathinfo(__FILE__, PATHINFO_BASENAME));
 }
@@ -60,8 +57,8 @@ if(is_dir($application_folder)){
 	}
 	define('APPPATH', $application_folder.DIRECTORY_SEPARATOR);
 }else{
-	header('HTTP/1.1 503 Dịch vụ Không Có Sẵn.', TRUE, 503);
-	echo 'Đường dẫn thư mục ứng dụng của bạn dường như không được thiết lập đúng cách. Vui lòng mở tệp sau và sửa chữa điều này: '.SELF;
+	header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+	echo 'Your application folder path does not appear to be set correctly. Please open the following file and correct this: '.SELF;
 	exit(3);
 }
 if(($_temp = realpath($view_folder)) !== FALSE){
@@ -70,8 +67,8 @@ if(($_temp = realpath($view_folder)) !== FALSE){
 	$view_folder = rtrim($view_folder, '/\\').DIRECTORY_SEPARATOR;
 }
 if(!is_dir($view_folder)){
-	header('HTTP/1.1 503 Dịch vụ Không Có Sẵn.', TRUE, 503);
-	echo 'Đường dẫn thư mục giao diện của bạn dường như không được thiết lập đúng cách. Vui lòng mở tệp sau và sửa chữa điều này: '.pathinfo(__FILE__, PATHINFO_BASENAME);
+	header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+	echo 'Your view folder path does not appear to be set correctly. Please open the following file and correct this: '.pathinfo(__FILE__, PATHINFO_BASENAME);
 	exit(3);
 }
 define('VIEWPATH', $view_folder);
